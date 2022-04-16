@@ -16,24 +16,22 @@
       <a class="logo" href="./index.html">
         <img src="./image/logoSemicvet.jpg" alt="logo" width="160">
       </a>
-      <div class="nav-contacts">
-        <ul class="auth-nav list">
-          <li class="auth-nav__item">
-            <a class="auth-nav__link link" href="mailto:semicvet.crm@gmail.com">semicvet.crm@gmail.com</a>
-          </li>
-          <li class="auth-nav__item"><a class="auth-nav__link phone link" href="tel:+380961111111">+38 (050) 342 25
-              61</a>
-          <li class="auth-nav__item"><a class="auth-nav__link phone link" href="tel:+380961111111">+38 (098) 618 05
-              72</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="auth-nav list">
+        <li class="auth-nav__item">
+          <a class="auth-nav__link link" href="mailto:semicvet.crm@gmail.com">semicvet.crm@gmail.com</a>
+        </li>
+        <li class="auth-nav__item"><a class="auth-nav__link phone link" href="tel:+380961111111">+38 (050) 342 25
+            61</a>
+        <li class="auth-nav__item"><a class="auth-nav__link phone link" href="tel:+380961111111">+38 (098) 618 05
+            72</a>
+        </li>
+      </ul>
     </div>
   </header>
 
-  <main>
+  <main class="container">
     <section class="section hero ">
-      <h1>Онлайн-курс для вагітних</h1>
+      <h1 class="main_title">Онлайн-курс для вагітних</h1>
       <p>Розділяючи з нами вашу вагітність та пологи, ви отримуєте кваліфіковану консультативну та практичну допомогу, а
         також важливу у цей період емоційну підтримку. Приєднуйтесь!</p>
       <h2>10 кроків до легких пологів</h2>
@@ -46,7 +44,8 @@
           Ім'я
           <input type="text" name="Введіть ім'я" placeholder="Марія">
         </label>
-        <button type="button">Залишити заявку</button>
+        <a href="#application">Залишити заявку</a>
+        <!-- <button type="button" id="application">Залишити заявку</button> -->
       </form>
     </section>
 
@@ -222,7 +221,7 @@
   </main>
 
   <!-- Подвал -->
-  <footer class="section footer">
+  <footer class="container section footer">
     <div>
       <h2>Наші контакти</h2>
       <a href="tel:+380986180572">+38(098) 618 05 72</a>
@@ -250,7 +249,7 @@
             placeholder="Ваше повідомлення"></textarea>
         </div>
 
-        <button class="button form__button" type="submit">Реєстрація на курс</button>
+        <button class="button form__button" type="submit" id="application">Реєстрація на курс</button>
 
       </form>
     </div>
@@ -265,73 +264,6 @@
       </ul>
     </section>
 
-    <!-- <div class="container footer-card">
-      <div class="footer-contacts contacts">
-        <a class="logo footer-logo" href="./index.html"><span class="logo-accent-color">Web</span><span
-            class="logo-main-color">Studio</span></a>
-        <address class="address">г. Киев, пр-т Леси Украинки, 26
-
-          <ul class="footer-nav list">
-            <li class="footer-nav__item">
-              <a class="footer-nav__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="footer-nav__item">
-              <a class="footer-nav__link link" href="tel:+380961111111">+38 096 111
-                11 11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-
-      <div class="footer-contacts">
-        <p class="social__title">присоединяйтесь</p>
-        <ul class="list social__list">
-          <li class="social__item">
-            <a class="social__link social__link--whitebg" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="social__icon social__icon--fillcolor">
-                <use href="./images/icon/sprite.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--whitebg" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="social__icon social__icon--fillcolor">
-                <use href="./images/icon/sprite.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--whitebg" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="social__icon social__icon--fillcolor">
-                <use href="./images/icon/sprite.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--whitebg" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="social__icon social__icon--fillcolor">
-                <use href="./images/icon/sprite.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card-news">
-        <p class="news__title">подпишитесь на рассылку</p>
-        <div class="forms">
-          <form class="forms__footer" name="signup_form">
-            <input class="forms__input" type="email" name="email" placeholder="E-mail" />
-          </form>
-          <button class="button button__title" type="submit">подписаться
-            <svg class="button__icon" width="24" height="24">
-              <use href="./images/icon/sprite.svg#icon-send"></use>
-            </svg>
-          </button>
-        </div>
-      </div>
-
-    </div> -->
   </footer>
 
 </body>
