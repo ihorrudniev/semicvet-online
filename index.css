@@ -20,7 +20,7 @@ body {
   background-color: var(--main-color);
 }
 
-/* --------спрятать текст---------- */
+/* --------text hidden---------- */
 
 .section--visually-hidden {
   position: absolute !important;
@@ -33,7 +33,7 @@ body {
   overflow: hidden;
 }
 
-/*-----------утиллиты----------- */
+/*-----------uttilites----------- */
 
 h1,
 h2,
@@ -63,40 +63,74 @@ img {
   color: var(--main-text-color);
 }
 
-.header {
+/* .header {
   border-bottom: 1px solid var(--border-bottom-header);
-}
+} */
+
+/*-------other style-----------*/
 
 .container{
-  max-width: 1200px;
+  /* max-width: 1200px; */
   /* max-width: 768px;
   max-width: 480px; */
 }
 
 .page-header {
-  display: flex;
+  text-align: center;
+  /* display: flex; */
   /* position: fixed; */
+  
 }
 
 .auth-nav{
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: 20px;
+  /* display: flex; */
+ 
+  /* align-items: center;
+  margin-left: auto; */
+
 
 
 }
 .auth-nav__item{
     margin-right: 15px;
+/* outline: 1px solid tomato; */
 
+}
+
+.auth-nav__link{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* outline: 1px solid green; */
+}
+
+.app-btn{
+  padding: 14px;
+  border-radius: 5px;
+  width: 100px;
+  height:10px;
+  /* border: 1px solrgb(143, 60, 60); */
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(158, 24, 140);
+  background-color: rgb(211, 47, 214);
+  transition: none 0s ease 0s;
 }
 
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.main_title{
+.title{
+  text-align: center;
   font-size: 24px;
+
+}
+
+.text{
+  text-align: center;
 }
 
 .container{
