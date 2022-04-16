@@ -63,46 +63,33 @@ img {
   color: var(--main-text-color);
 }
 
-/* .header {
-  border-bottom: 1px solid var(--border-bottom-header);
-} */
-
 /*-------other style-----------*/
 
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-bottom-header);
+}
+
 .container{
-  /* max-width: 1200px; */
+  max-width: 1200px;
   /* max-width: 768px;
   max-width: 480px; */
 }
 
 .page-header {
-  padding-bottom: 10px;
-  text-align: center;
   /* display: flex; */
-  /* position: fixed; */
-  
-}
+  text-align: center;
+ }
 
 .auth-nav{
   display: inline-block;
- 
-  /* align-items: center;
-  margin-left: auto; */
-
-
-
 }
 .auth-nav__item{
-    /* margin-right: 15px; */
-/* outline: 1px solid tomato; */
 
 }
 
 .auth-nav__link{
-  /* display: inline-block; */
-  /* padding-top: 20px; */
-  /* padding-bottom: 20px; */
-  /* outline: 1px solid green; */
+  
 }
 
 .hero{
@@ -137,7 +124,7 @@ background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.title{
+.title_hero{
   text-align: center;
   font-size: 24px;
   color: #8060b8;
@@ -147,11 +134,22 @@ background-size: cover;
   
 }
 
-.title_course{
+.img_hero{
+  margin-bottom: 10px;
+}
+
+.title_description{
+  margin-bottom: 25px;
+  font-family: 'Roboto',  Arial, Sans-serif;
+  font-weight: 600;
+  line-height: 1.35;
+  font-size: 25px;
+  text-transform: uppercase;
   color: #000000;
 }
 
-.text{
+.text_hero{
+  margin-bottom: 15px;
   padding: 10px;
   text-align: center;
   color: #ffffff;
@@ -164,7 +162,39 @@ background-size: cover;
   background-color: #b370bf;
   background-position: center center;
   border-color: transparent;
-  border-style: solid;
+  /* border-style: solid; */
+}
+
+.form{
+  
+  text-align: center;
+
+
+}
+
+.form_field{
+
+    margin-bottom: 20px;
+}
+
+.form_label{
+  display: block;
+  /* margin-bottom: 10px; */
+}
+
+.form_input{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #957cc2;
+  border: 1px solid #957cc2;
+  background-color: #e6e3e3;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  
 }
 
 .container{
