@@ -190,4 +190,11 @@ img {
   border: 5px solid #ffffff;
   border-radius: 50%;
 }
+
+.team {
+  background-image: url("../image/bg-team-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 /*# sourceMappingURL=main.css.map */
