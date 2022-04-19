@@ -1,11 +1,13 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -76,6 +78,7 @@ img {
 .hero {
   padding-left: 15px;
   padding-right: 15px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(196, 179, 235, 0.6))), url("../image/lendBackground.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(196, 179, 235, 0.6)), url("../image/lendBackground.jpg");
   background-repeat: no-repeat;
   background-position: right center;
@@ -93,6 +96,7 @@ img {
   color: white;
   border: 3px solid #9e188c;
   background-color: #d32fd6;
+  -webkit-transition: none 0s ease 0s;
   transition: none 0s ease 0s;
 }
 
@@ -173,5 +177,17 @@ img {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.description {
+  background-image: url("../image/bg-10stap.jpg");
+}
+
+.description_img {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */

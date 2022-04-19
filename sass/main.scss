@@ -197,3 +197,17 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+
+.description{
+  background-image: url("../image/bg-10stap.jpg");
+}
+
+
+
+.description_img{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+}
