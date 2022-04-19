@@ -212,6 +212,12 @@ img {
   border-radius: 50%;
 }
 
+.bg{
+      background-color: #d8cbf7;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+}
 
 .team{
   text-align: center;
@@ -234,4 +240,10 @@ img {
   width: 120px;
   border: 5px solid #ffffff;
   border-radius: 50%;
+}
+
+.footer{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: #fde8ff;
 }
