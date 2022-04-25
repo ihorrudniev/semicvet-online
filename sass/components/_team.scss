@@ -1,0 +1,22 @@
+.bg {
+  background-color: #d8cbf7;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.team {
+  text-align: center;
+  background-image: url("../image/bg-team-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.team__img {
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+}
