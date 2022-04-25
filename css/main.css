@@ -218,7 +218,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1600px;
   }
 }
 
@@ -308,14 +308,19 @@ img {
 }
 
 .btn {
-  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 160px;
+  color: #ffffff;
   background-color: #957cc2;
+}
+
+.btn__text {
+  padding: 15px;
+  text-align: center;
   font-weight: 600;
   font-size: 14px;
-  width: 160px;
-  height: 50px;
-  padding: 0 15px;
-  display: block;
 }
 
 .form {
