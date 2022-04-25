@@ -2,14 +2,20 @@
   // text-align: center;
   display: flex;
   // margin-left: 30px;
+  // margin-right: 30px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.70);
   // height: 80px;
 }
-.logo{
-  margin-left: 30px;
+
+// .logo{
+//   margin-left: 30px;
+// }
+
+.page-header .container{
+  display: flex;
 }
 
 .auth-nav.list {
@@ -39,6 +45,7 @@
   background-repeat: no-repeat;
   background-position: right center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero__title {
@@ -68,4 +75,15 @@
   background-color: #b370bf;
   background-position: center center;
   border-color: transparent;
+}
+
+.btn{
+  color: #fff;
+  background-color: #957cc2;
+  font-weight: 600;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  padding: 0 15px;
+  display: block;
 }
