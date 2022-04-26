@@ -210,24 +210,20 @@ img {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .container {
     max-width: 1600px;
   }
 }
 
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .page-header {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,10 +274,15 @@ img {
   background-attachment: fixed;
 }
 
-.hero__title {
+.hero__section {
+  padding-top: 150px;
   margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 15px;
+  width: 450px;
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -292,11 +293,10 @@ img {
 }
 
 .hero__text {
-  margin: 0 73px 15px 73px;
   padding: 10px;
   text-align: center;
   color: #ffffff;
-  font-size: 11px;
+  font-size: 19px;
   line-height: 1.6;
   font-weight: 700;
   letter-spacing: 0px;
@@ -308,12 +308,12 @@ img {
 }
 
 .btn {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-top: 30px;
+  display: inline-block;
   width: 160px;
   color: #ffffff;
   background-color: #957cc2;
+  border-radius: 5px;
 }
 
 .btn__text {
