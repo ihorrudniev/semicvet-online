@@ -34,8 +34,7 @@
       <div class="hero__section">
         <h1 class="hero__title">Онлайн-курс<br> для вагітних <br>"10 кроків<br> до легких пологів"</h1>
         <p class="hero__text">Розділяючи з нами вашу вагітність та пологи, ви отримуєте кваліфіковану консультативну та
-          практичну допомогу, а
-          також важливу у цей період емоційну підтримку. Приєднуйтесь!</p>
+          практичну допомогу, а також важливу у цей період емоційну підтримку. Приєднуйтесь!</p>
         <!-- <form class="form">
                 <div class="form_field">
                   <label class="form_label" for="phone"></label>
@@ -48,7 +47,8 @@
                 </div>
         
               </form> -->
-        <a href="#application" class="link btn btn__text">Залишити заявку</a>
+        <!-- <a href="#application" class="link btn btn__text">Залишити заявку</a> -->
+        <button class="link btn btn__text" type="button" data-modal-open>Залишити заявку</button>
       </div>
     </section>
   </header>
@@ -283,6 +283,58 @@
     </section>
 
   </footer>
+
+  <!-- модальное окно -->
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="button-close" data-modal-close>
+        <svg class="button-close__icon" width="18" height="18">
+          <use href="./images/icon/sprite.svg#icon-close-black"></use>
+        </svg>
+      </button>
+
+      <form class="form js-speaker-form">
+        <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="form__field">
+          <label class="form__label" for="name">Имя</label>
+          <input class="form__input" type="text" name="user-name" id="name">
+          <svg class="form__icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-person"></use>
+          </svg>
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="tel">Телефон</label>
+          <input class="form__input" type="tel" name="phone-number" id="tel">
+          <svg class="form__icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-phone"></use>
+          </svg>
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="mail">Почта</label>
+          <input class="form__input" type="email" name="email" id="mail">
+          <svg class="form__icon" width="18" height="18">
+            <use href="./images/icon/sprite.svg#icon-email"></use>
+          </svg>
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="comments">Комментарий</label>
+          <textarea class="form__textarea" name="comment" id="comments" cols="30" rows="10"
+            placeholder="Введите текст"></textarea>
+        </div>
+        <label class="checkbox__label">
+          <input class="checkbox__input" type="checkbox" name="checkbox">
+          <span class="checkbox__icon"></span> Соглашаюсь с рассылкой и
+          принимаю<a class="consent contract__link" href=""> Условия договора</a>
+        </label>
+      </form>
+      <button class="button form__button" type="submit">Отправить</button>
+    </div>
+
+    <script src="./js/modal.js"></script>
 
 </body>
 
